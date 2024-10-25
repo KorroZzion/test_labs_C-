@@ -2,6 +2,7 @@
 #include <map>
 #include <memory>
 #include <cstddef>
+#include <conio.h>
 
 // Шаблонный класс-аллокатор, реализующий выделение памяти блоками заданного размера
 // T - тип данных, для которых используется аллокатор
@@ -407,6 +408,6 @@ int main() {
     //     std::cout << *it << " ";
     // }
     // std::cout << std::endl;
-
+    _getch();
     return 0;
 }
